@@ -1,6 +1,6 @@
 ---
 title: "Catamorphisms"
-date: 2019-07-14T13:25:08-07:00
+date: "2019-07-15"
 draft: true
 ---
 
