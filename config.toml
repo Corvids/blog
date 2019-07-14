@@ -1,1 +1,4 @@
-theme = "ezhil"
+baseURL = "http://www.jenniferjoo.com"
+languageCode = "en-us"
+title = "Jennifer's Blog"
+theme = "hugo-theme-basic"
