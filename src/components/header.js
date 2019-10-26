@@ -18,6 +18,10 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
+      <Link to="/page-2/">About</Link>
+      <Link to="/page-2/">Blog</Link>
+      <Link to="/page-2/">Portfolio</Link>
+      <Link to="/page-2/">Code Snippets</Link>
       <p style={{ margin: 0 }}>
         <Link
           to="/"
