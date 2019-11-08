@@ -14,7 +14,7 @@ const IndexPage = ({description}) => (
     <p>This is a place where I'll store my blog post, personal projects, code snippets, etc.!</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
-    <Link to="/page-2/">Check out my blog!</Link>
+    <Link to="/blog/">Check out my blog!</Link>
   </Layout>
 )
 

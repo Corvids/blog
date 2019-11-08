@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
         <h1>
           <span style={{color:"#ffb3ba"}}>J</span>
           <span style={{color:"#ffdfba"}}>E</span>
-          <span style={{color:"#fdfd96"}}>N</span>
+          <span style={{color:"#cec1e7"}}>N</span>
           <span style={{color:"#baffc9"}}>N</span>
           <span style={{color:"#bae1ff"}}>I</span>
           <span style={{color:"#f2e2ff"}}>F</span>
@@ -25,10 +25,10 @@ const Header = ({ siteTitle }) => (
         </h1>
       </Link>
       <div className="nav-links-full">
-        <Link to="/page-2/" className="nav-link-individual">About</Link>
-        <Link to="/page-2/" className="nav-link-individual">Blog</Link>
-        <Link to="/page-2/" className="nav-link-individual">Portfolio</Link>
-        <Link to="/page-2/" className="nav-link-individual">Code Snippets</Link>
+        <Link to="/about/" className="nav-link-individual">About</Link>
+        <Link to="/blog/" className="nav-link-individual">Blog</Link>
+        <Link to="/portfolio/" className="nav-link-individual">Portfolio</Link>
+        <Link to="/code-snippets/" className="nav-link-individual">Code Snippets</Link>
       </div>
     </div>
   </header>
