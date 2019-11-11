@@ -11,7 +11,7 @@ import "../style/footer.css"
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer-content">
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}

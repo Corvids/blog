@@ -1,9 +1,28 @@
-#footer {
-    position: fixed;
-    height: 50px;
-    background-color: red;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    font-family: sans-serif;
+}
+
+.footer-content {
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    color: #FFFFFF;
+    background: rgb(106, 108, 109);
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 100px;
 }
