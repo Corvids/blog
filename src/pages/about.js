@@ -15,7 +15,7 @@ const About = () => (
       and I helped non-profit organizations
       to further their mission through the use of data.</p>
     <p><b>When I'm not coding</b>, I like going to spin class,
-    learning new recipes, or checking out local coffeeshops.</p>
+    learning new recipes, or attending a show.</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
