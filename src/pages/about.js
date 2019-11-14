@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const About = () => (
   <Layout>
     <SEO title="About" />
-    <p><b>My name is Jennifer</b> and I'm currently located in Seattle.</p>
+    <p><b>Hello there! My name is Jennifer</b> and I'm currently located in Seattle.</p>
     <p>I'm currently a sofware engineer at Microsoft.
       I'm interested in functional programming, systems,
       and working on my side projects.</p>

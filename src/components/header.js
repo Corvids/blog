@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
   >
     <div className="header">
       <Link to="/" className="title">
-        <h1>
+        <h1 className="header-title">
           <span style={{color:"#ffb3ba"}}>J</span>
           <span style={{color:"#ffdfba"}}>E</span>
           <span style={{color:"#cec1e7"}}>N</span>
