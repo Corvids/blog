@@ -25,10 +25,10 @@ const Header = ({ siteTitle }) => (
         </h1>
       </Link>
       <div className="nav-links-full">
-        <Link to="/about/" className="nav-link-individual">About</Link>
-        <Link to="/blog/" className="nav-link-individual">Blog</Link>
-        <Link to="/portfolio/" className="nav-link-individual">Portfolio</Link>
-        <Link to="/code-snippets/" className="nav-link-individual">Code Snippets</Link>
+        <Link to="/about/" className="nav-link-individual">01. About</Link>
+        <Link to="/blog/" className="nav-link-individual">02. Blog</Link>
+        <Link to="/portfolio/" className="nav-link-individual">03. Portfolio</Link>
+        <Link to="/code-snippets/" className="nav-link-individual">04. Code Snippets</Link>
       </div>
       <div className="nav-links-social">
         <a href="https://github.com/corvids" target="_blank"><div class="icons8-github"></div></a>
