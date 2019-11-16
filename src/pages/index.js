@@ -11,7 +11,7 @@ const IndexPage = ({description}) => (
     <SEO title="Home" />
     <div></div>
     <div>
-      <h2>Hello there! <span class="rainbow-letters">I'm Jennifer.</span></h2>
+      <h2>Hello there! <span ClassName="rainbow-letters">I'm Jennifer.</span></h2>
       <p>Welcome to my personal website.</p>
       <p>This is a place where I'll store my blog post, personal projects, code snippets, etc.!</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>

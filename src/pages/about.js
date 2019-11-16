@@ -16,7 +16,7 @@ const About = () => (
       to further their mission through the use of data.</p>
     <p><b>When I'm not coding</b>, I like going to spin class,
     learning new recipes, or attending a show.</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/" ClassName="link-to-home">Go back to the homepage</Link>
   </Layout>
 )
 

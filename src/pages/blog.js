@@ -8,7 +8,7 @@ const Blog = () => (
   <Layout>
     <SEO title="About" />
     <p>Welcome to the blog</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/" ClassName="link-to-home">Go back to the homepage</Link>
   </Layout>
 )
 
