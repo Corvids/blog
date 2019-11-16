@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const CodeSnippets = () => (
   <Layout>
     <SEO title="code snippets" />
-    <h1>Hi from the code snippets page</h1>
+    <p>This is where you can find some of my code snippets.</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
