@@ -38,7 +38,8 @@ html {
   color: #838383;
 }
 
-a.nav-link-individual:hover {
+a.nav-link-individual:hover,
+a.link-to-home:hover {
   text-decoration: underline #bc13fe;
 }
 

@@ -31,10 +31,10 @@ const Header = ({ siteTitle }) => (
         <Link to="/code-snippets/" className="nav-link-individual">04. Code Snippets</Link>
       </div>
       <div className="nav-links-social">
-        <a href="https://github.com/corvids" target="_blank"><div class="icons8-github"></div></a>
-        <a href="https://www.linkedin.com/in/jennifer-joo/" target="_blank"><div class="icons8-linkedin"></div></a>
-        <a href="mailto:me@jenniferjoo.com" target="_blank"><div class="icons8-email"></div></a>
-        <a href="https://twitter.com/joonnifer/" target="_blank"><div class="icons8-twitter"></div></a>
+        <a href="https://github.com/corvids" target="_blank"><div className="icons8-github"></div></a>
+        <a href="https://www.linkedin.com/in/jennifer-joo/" target="_blank"><div className="icons8-linkedin"></div></a>
+        <a href="mailto:me@jenniferjoo.com" target="_blank"><div className="icons8-email"></div></a>
+        <a href="https://twitter.com/joonnifer/" target="_blank"><div className="icons8-twitter"></div></a>
       </div>
     </div>
   </header>

@@ -8,7 +8,7 @@ const CodeSnippets = () => (
   <Layout>
     <SEO title="code snippets" />
     <p>This is where you can find some of my code snippets.</p>
-    <Link to="/" ClassName="link-to-home">Go back to the homepage</Link>
+    <Link to="/" className="link-to-home">Go back to the homepage</Link>
   </Layout>
 )
 

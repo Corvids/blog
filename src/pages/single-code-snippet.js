@@ -9,7 +9,7 @@ const SingleSnippet = (snippet_title, link_to, desc) => (
     <Layout ClassName="">
         <SEO title={snippet_title} />
         <p>{desc}</p>
-        <Link to={link_to} ClassName="link-to-home">View Code</Link>
+        <Link to={link_to} className="link-to-home">View Code</Link>
     </Layout>
 )
 

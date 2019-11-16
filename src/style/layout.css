@@ -11,9 +11,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a.link-to-home:hover {
-  text-decoration: underline #bc13fe;
-}
 article,
 aside,
 details,
