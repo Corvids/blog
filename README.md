@@ -6,7 +6,7 @@ This is my personal blog/portfolio, scaffolded from the [Gatsby](https://www.gat
 
 To develop the project, run:
 
-    ```shell
+    ```
     gatsby develop
     ```
 
@@ -17,6 +17,6 @@ To develop the project, run:
 
 To install the neccesary dependencies for this project, run:
 
-    ```shell
+    ```
     yarn
     ```
