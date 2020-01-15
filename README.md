@@ -6,17 +6,17 @@ This is my personal blog/portfolio, scaffolded from the [Gatsby](https://www.gat
 
 To develop the project, run:
 
-    ```
-    gatsby develop
-    ```
+```shell
+gatsby develop
+```
 
-    and navigate to `http://localhost:8000/` in your favorite web browser.
+and navigate to `http://localhost:8000/` in your favorite web browser.
 
 
 ## Installing Dependencies
 
 To install the neccesary dependencies for this project, run:
 
-    ```
-    yarn
-    ```
+```shell
+yarn
+```
