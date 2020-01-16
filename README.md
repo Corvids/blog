@@ -12,11 +12,24 @@ gatsby develop
 
 and navigate to `http://localhost:8000/` in your favorite web browser.
 
-
-## Installing Dependencies
+## 🧶 Installing Dependencies
 
 To install the neccesary dependencies for this project, run:
 
 ```shell
 yarn
+```
+
+## 🚀 Deploying to Firebase
+
+Assuming you have an existing firebase project, prepare the blog for deployment by running:
+
+```shell
+gatsby build
+```
+
+And then deploy to firebase by running:
+
+```shell
+firebase deploy
 ```
