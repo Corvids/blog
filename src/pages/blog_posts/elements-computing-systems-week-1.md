@@ -7,3 +7,5 @@ excerpt: "Todo write this later"
 ---
 
 Hello, reader!
+
+This is a test to make sure linking, etc. works
