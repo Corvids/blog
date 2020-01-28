@@ -9,12 +9,15 @@ export default function Template({
 
   const title = frontmatter.title;
 	const date = frontmatter.date;
-	const html = frontmatter.html;
+	const html = markdownRemark.html;
   return (
     <div className="blog-post-container">
       <div className="blog-post">
         <h1>{title}</h1>
-        <h2>{date}</h2>
+        <div>
+          <em>{date}</em>
+        </div>
+        <br />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
