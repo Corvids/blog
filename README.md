@@ -33,3 +33,11 @@ And then deploy to firebase by running:
 ```shell
 firebase deploy
 ```
+
+## 🔍 Querying GraphQL
+
+While running the blog, go to
+
+```shell
+http://localhost:8000/___graphql
+```
