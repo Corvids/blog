@@ -20,6 +20,7 @@ module.exports = {
         path: `${__dirname}/src/pages/blog_posts`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
