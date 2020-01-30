@@ -1,22 +1,55 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql, Link } from 'gatsby';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Blog = ({data}) => {
+  const { edges } = data.allMarkdownRemark;
+
   return (
     <Layout>
       <SEO title="About" />
-      <p>Welcome to the blog</p>
-
-      {/* blog posts */}
-
-      {/* blogs posts */}
-
+      <div className="blog-posts">
+      {
+        edges.map(edge => {
+            const { frontmatter } = edge.node;
+            return (
+              <div key={frontmatter.path}>
+                <Link to={frontmatter.path} className="link-to-home"><b>{frontmatter.title}</b></Link>
+                &nbsp;
+                <br/>
+                <small><em>published on {' '}</em>{frontmatter.date}</small>
+                <br/>
+                <p>{frontmatter.excerpt}</p>
+              </div>
+            )
+          })
+        }
+      </div>
       <Link to="/" className="link-to-home">Go back to the homepage</Link>
     </Layout>
   )
 }
+
+export const query = graphql`
+	query HomePageQuery {
+		allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
+			totalCount
+			edges {
+				node {
+					id
+					frontmatter {
+						title
+						date(formatString: "MMMM DD, YYYY")
+						path
+						tags
+						excerpt
+					}
+				}
+			}
+		}
+	}
+`;
 
 export default Blog
