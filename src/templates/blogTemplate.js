@@ -16,7 +16,7 @@ export default function Template({
     <Layout>
       <div className="blog-post-container">
         <div className="blog-post">
-          <h1>{title}</h1>
+          <h2>{title}</h2>
           <div>
             <em>{date}</em>
           </div>
