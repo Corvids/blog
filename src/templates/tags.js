@@ -6,6 +6,11 @@ import Layout from "../components/layout"
 // Components
 import { Link, graphql } from "gatsby"
 
+/*
+refer to https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/#make-a-tags-page-template-for-tagstag
+for tags tutorial?
+*/
+
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
