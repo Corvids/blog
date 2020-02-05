@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import "../style/blog.css"
 
 const Blog = ({data}) => {
-  const { edges } = data.allMarkdownRemark;
+  const { edges } = data.allMarkdownRemark
 
   return (
     <Layout>
@@ -15,7 +15,8 @@ const Blog = ({data}) => {
       <div className="blog-posts">
       {
         edges.map(edge => {
-            const { frontmatter } = edge.node;
+            const { frontmatter } = edge.node
+            const tags = frontmatter.tags
             return (
               <div key={frontmatter.path}>
                 <Link to={frontmatter.path} className="link-to-home"><b>{frontmatter.title}</b></Link>
@@ -23,7 +24,7 @@ const Blog = ({data}) => {
                 <br/>
                 <small><em>Originally published: {' '}</em>{frontmatter.date}</small>
                 <p>{frontmatter.excerpt}</p>
-                <small><em>Tags: {' '}</em>{frontmatter.tags}</small>
+                <small><em>Tags: {' '}</em>{ tags }</small>
               </div>
             )
           })
@@ -53,6 +54,6 @@ export const query = graphql`
 			}
 		}
 	}
-`;
+`
 
 export default Blog

@@ -17,8 +17,9 @@ let x c : myChoice<'letter> =
 
 The following F# error gets thrown because a type was declared that has a generic type:
 
-**warning FS0064:** _This construct causes code to be less generic than indicated by the type annotations. The type variable 'PolygonShape has been constrained to be type 'string'._
-
+```
+warning FS0064: This construct causes code to be less generic than indicated by the type annotations. The type variable 'PolygonShape has been constrained to be type 'string'.
+```
 
 There are several ways to handle this error:
 
