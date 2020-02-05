@@ -69,7 +69,7 @@ Tags.propTypes = {
 
 export default Tags
 
-export const pageQuery = graphql`
+export const tagsQuery = graphql`
   query($tag: String) {
     allMarkdownRemark(
       limit: 2000

@@ -4,6 +4,8 @@ import { graphql, Link } from 'gatsby';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import "../style/blog.css"
+
 const Blog = ({data}) => {
   const { edges } = data.allMarkdownRemark;
 
@@ -19,14 +21,15 @@ const Blog = ({data}) => {
                 <Link to={frontmatter.path} className="link-to-home"><b>{frontmatter.title}</b></Link>
                 &nbsp;
                 <br/>
-                <small><em>published on {' '}</em>{frontmatter.date}</small>
-                <br/>
+                <small><em>Originally published: {' '}</em>{frontmatter.date}</small>
                 <p>{frontmatter.excerpt}</p>
+                <small><em>Tags: {' '}</em>{frontmatter.tags}</small>
               </div>
             )
           })
         }
       </div>
+      <br/>
       <Link to="/" className="link-to-home">Go back to the homepage</Link>
     </Layout>
   )
