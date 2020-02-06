@@ -9,10 +9,13 @@ Let's say we have this function written in F# we want to run:
 
 ```fs
 type Choices = A | B | C | D
-let x c : myChoice<'letter> =
+let fun c : myChoice<'letter> =
     match c with
     | A | B | C -> "a or b or c"
     | D -> "d"
+    | _ -> "unknown"
+let choice = fun A
+printfn "%A" choice
 ```
 
 The following F# error gets thrown because a type was declared that has a generic type:
@@ -25,6 +28,43 @@ There are several ways to handle this error:
 
 I. Remove the Type Annotation Completely
 
+If it's not strictly needed, you can remove the type annotation from the function
+
+```fs
+type Choices = A | B | C | D
+let fun c =
+    match c with
+    | A | B | C -> "a or b or c"
+    | D -> "d"
+    | _ -> "unknown"
+let choice = fun A
+printfn "%A" choice
+```
+
 II. Replace the Type Annotation with an underscore
 
-III.
+```fs
+type Choices = A | B | C | D
+let fun c : myChoice<_> =
+    match c with
+    | A | B | C -> "a or b or c"
+    | D -> "d"
+    | _ -> "unknown"
+let choice = fun A
+printfn "%A" choice
+```
+
+III. Define
+
+Remove the apostrophe and ...
+
+```fs
+type Choices = A | B | C | D
+let fun c : myChoice<letter> =
+    match c with
+    | A | B | C -> "a or b or c"
+    | D -> "d"
+    | _ -> "unknown"
+let choice = fun A
+printfn "%A" choice
+```
