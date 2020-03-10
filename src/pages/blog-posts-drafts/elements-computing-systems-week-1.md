@@ -1,6 +1,6 @@
 ---
 path: "/blog/elements-computing-systems-week-1"
-date: "2020-01-29"
+date: "2020-03-11"
 title: "The Elements of Computing Systems (Chapter 1)"
 tags: ["study-group", "elements-computing-systems"]
 excerpt: "Perferendis atque qui iste rem nihil. Ut sint a esse rerum. Error repellat voluptates accusantium. Eveniet fuga dolor est aut facere voluptatem. Dignissimos provident qui id. Numquam quis eum fuga fugiat expedita."

@@ -18,7 +18,7 @@ export default function Template({
         <div className="blog-post">
           <h2>{title}</h2>
           <div>
-            <em>{date}</em>
+            <em>Originally published on: {date}</em>
           </div>
           <br />
           <div

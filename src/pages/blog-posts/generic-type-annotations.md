@@ -5,7 +5,8 @@ title: "Handling Generic Type Annotation Errors in F#"
 tags: ["F#", "Error Handling"]
 excerpt: "This post will cover why users may see a generic type annotation error while working with F# and the various ways to handle this error."
 ---
-Let's say we have this function written in F# we want to run:
+
+I recently came across this error concerning generic types and I wanted to share what I've learned by solving this error. Let's say we have this function written in F# we want to run:
 
 ```fs
 type Choices = A | B | C | D
