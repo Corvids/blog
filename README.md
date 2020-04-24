@@ -1,4 +1,6 @@
-# [jenniferjoo.com](jenniferjoo.com)
+# My blog
+
+website: [jenniferjoo.com](jenniferjoo.com)
 
 This is my personal blog/portfolio, scaffolded from the [Gatsby](https://www.gatsbyjs.org) website framework.
 
