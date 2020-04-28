@@ -44,7 +44,7 @@ http://localhost:8000/___graphql
 
 ## 🐛 Common issues/bugs
 
-If you're getting the error while running the project on a !indows,
+If you're getting the error while running the project on a windows machine,
 
 ```
 GraphQL Error There was an error while compiling your site's GraphQL queries.
