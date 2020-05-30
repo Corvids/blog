@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
   >
     <div className="header">
       <div className="container">
-        <div className="flex-item-row2">
+        <div className="flex-item-top-row">
           <Link to="/" className="title">
             <h1 className="header-title">
               <span style={{color:"#ffb3ba"}}>J</span>
