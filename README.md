@@ -9,6 +9,10 @@ To install the neccesary dependencies for this project, run:
 ```shell
 yarn
 ```
+or
+```shell
+yarn install
+```
 
 ## 👩‍💻 Develop
 
