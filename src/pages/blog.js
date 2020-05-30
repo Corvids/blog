@@ -31,6 +31,7 @@ const Blog = ({data}) => {
         }
       </div>
       <br/>
+      <p>*****</p>
       <Link to="/" className="link-to-home">Go back to the homepage</Link>
     </Layout>
   )
