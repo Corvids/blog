@@ -1,6 +1,6 @@
 ## [jenniferjoo.com](jenniferjoo.com)
 
-This is my personal blog/portfolio, scaffolded from the [Gatsby](https://www.gatsbyjs.org) website framework.
+This repo holds my personal blog/portfolio, scaffolded from the [Gatsby](https://www.gatsbyjs.org) website framework.
 
 ## 🧶 Installing Dependencies
 
@@ -9,7 +9,9 @@ To install the neccesary dependencies for this project, run:
 ```shell
 yarn
 ```
+
 or
+
 ```shell
 yarn install
 ```
