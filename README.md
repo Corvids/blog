@@ -7,12 +7,6 @@ This repo holds my personal blog/portfolio, scaffolded from the [Gatsby](https:/
 To install the neccesary dependencies for this project, run:
 
 ```shell
-yarn
-```
-
-or
-
-```shell
 yarn install
 ```
 
