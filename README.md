@@ -4,6 +4,8 @@ This repo holds my personal blog/portfolio, scaffolded from the [Gatsby](https:/
 
 ## 🧶 Installing Dependencies
 
+To start developing, you'll need to have [Node.js](https://nodejs.org/en/) and [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) installed on your machine.
+
 To install the neccesary dependencies for this project, run:
 
 ```shell
