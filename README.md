@@ -1,4 +1,4 @@
-## [jenniferjoo.com](jenniferjoo.com)
+# [jenniferjoo.com](jenniferjoo.com)
 
 This repo holds my personal blog/portfolio, scaffolded from the [Gatsby](https://www.gatsbyjs.org) website framework.
 
@@ -48,10 +48,10 @@ http://localhost:8000/___graphql
 
 If you're getting the error while running the project on a windows machine:
 
-```
+```markdown
 GraphQL Error There was an error while compiling your site's GraphQL queries.
 
 Error: RelayParser: Encountered duplicate defintitions for one or more documents: each document must have a unique name. Duplicated documents:
 ```
 
-Check the casing of your CLI filepath and target filepath, e.g. if the blog-post filepath is `src\templates\blogTemplate.js` but the CLI firpath is `src\Templates\blogTemplate.js`, the GraphQL query will fail to compile.
+Check the casing of your CLI filepath and target filepath, e.g. if the blog-post filepath is `src\templates\blogTemplate.js` but the CLI filepath is `src\Templates\blogTemplate.js`, the GraphQL query will fail to compile.
