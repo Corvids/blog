@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Contact from "./contact"
+
 const About = () => (
   <Layout>
     {/*TODO: Add a photo of self here*/}
@@ -21,6 +23,8 @@ const About = () => (
     <p><b>When I'm not coding</b>, I like going to various fitness classes <span role="img" aria-label="Woman in Lotus Position emoji">🧘‍♀️</span>,
     visiting farmers' markets <span role="img" aria-label="Woman Farmer emoji">👩‍🌾</span>, or attending a musical show <span role="img" aria-label="Violin emoji">🎻</span>.</p>
     <br/>
+    <hr/>
+    <Contact />
     <p>*****</p>
     <Link to="/" className="link-to-home">Go back to the homepage</Link>
   </Layout>

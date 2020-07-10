@@ -65,7 +65,8 @@ html {
 
 a.nav-link-individual:hover,
 a.link-to-home:hover {
-  text-decoration: underline #bc13fe;
+  text-decoration: underline #e6e6fa;
+  color: #dda0dd;
 }
 
 .nav-link-individual {
