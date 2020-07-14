@@ -12,6 +12,12 @@ To install the neccesary dependencies for this project, run:
 yarn install
 ```
 
+You will also need firebase tools, which you can add using:
+
+```shell
+yarn global add firebase-tools
+```
+
 ## 👩‍💻 Develop
 
 To develop the project, run:
