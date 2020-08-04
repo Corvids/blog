@@ -2,7 +2,7 @@
 
 This repo holds my personal blog/portfolio, scaffolded from the [Gatsby](https://www.gatsbyjs.org) website framework.
 
-## 🧶 Installing Dependencies
+### 🧶 Installing Dependencies
 
 To start developing, you'll need to have [Node.js](https://nodejs.org/en/) and [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) installed on your machine.
 
@@ -18,7 +18,7 @@ You will also need firebase tools, which you can add using:
 yarn global add firebase-tools
 ```
 
-## 👩‍💻 Develop
+### 👩‍💻 Develop
 
 To develop the project, run:
 
@@ -28,7 +28,7 @@ gatsby develop
 
 and navigate to `http://localhost:8000/` in your favorite web browser.
 
-## 🚀 Deploying to Firebase
+### 🚀 Deploying to Firebase
 
 Assuming you have an existing firebase project, prepare the blog for deployment by running:
 
@@ -42,7 +42,7 @@ And then deploy to firebase by running:
 firebase deploy
 ```
 
-## 🔍 Querying GraphQL
+### 🔍 Querying GraphQL
 
 While running the blog, go to
 
@@ -50,7 +50,7 @@ While running the blog, go to
 http://localhost:8000/___graphql
 ```
 
-## 🐛 Common issues/bugs
+### 🐛 Common issues/bugs
 
 If you're getting the error while running the project on a windows machine:
 
